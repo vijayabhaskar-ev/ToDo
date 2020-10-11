@@ -187,6 +187,6 @@ if(!err){
 //   port = 3000;
 // }
 
-app.listen(process.env.PORT, function() {
+app.listen(process.env.PORTr, function() {
   console.log("Server started on port 3000");
 });
