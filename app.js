@@ -180,6 +180,13 @@ if(!err){
   }
 });
 
-app.listen(3005, function() {
-  console.log("Server started on port 3001");
+
+
+let port = process.env.PORT;
+if(port == null || port == "") {
+  port = 3000;
+}
+
+app.listen(port, function() {
+  console.log("Server started on port 3000");
 });
