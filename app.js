@@ -12,7 +12,7 @@ app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
-mongoose.connect("mongodb+srv://vijayabhaskarev:98myphoneda@cluster0.8izpn.mongodb.net/todo?retryWrites=true&w=majority",{useUnifiedTopology: true,useNewUrlParser: true, useFindAndModify: false})
+mongoose.connect("mongodb+srv://accountName:*********@cluster0.8izpn.mongodb.net/todo?retryWrites=true&w=majority",{useUnifiedTopology: true,useNewUrlParser: true, useFindAndModify: false})
 
 //mongoose schema
 
